@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header_contact">
+            <div class="header_contact_block">
+              <p class="header_contact__text">Chat with us</p>
+              <p class="header_contact__number">+420 336 775 664</p>
+              <p class="header_contact__email">info@freshnesecom.com</p>
+            </div>
+            <hr />
+
+            <ul class="header_contact_list">
+              <li><a href="#" class="header_contact_list__link">Blog</a></li>
+              <li>
+                <a href="#" class="header_contact_list__link">About Us</a>
+              </li>
+              <li><a href="#" class="header_contact_list__link">Careers</a></li>
+            </ul>
+          </div>
+          <div class="header_middle">
+            <div>
+              <img src="./img/logo.svg" alt="" />
+            </div>
+            <form class="header_form">
+              <label class="header_input__label" for="header_search"
+                >All categories
+              </label>
+              <span class="header__vertical_line"></span>
+              <input
+                type="search"
+                id="header_search"
+                placeholder="Search Products, categories ..."
+                class="header_input"
+              />
+            </form>
+          </div>
+          <div class="header_bottom">
+            <ul class="header_bottom_list">
+              <li><p class="header_bottom_item">Bakery</p></li>
+              <li><p class="header_bottom_item">Fruit and vegetables</p></li>
+              <li><p class="header_bottom_item">Meat and fish</p></li>
+              <li><p class="header_bottom_item">Drinks</p></li>
+              <li><p class="header_bottom_item">Kitchen</p></li>
+              <li><p class="header_bottom_item">Special nutrition</p></li>
+              <li><p class="header_bottom_item">Baby</p></li>
+              <li><p class="header_bottom_item">Pharmacy</p></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <div class="container">
+            <div class="homepage">
+              <p class="homepage_text">Homepage</p>
+              <span class="slash">/</span>
+              <p class="homepage_fruit">Fruit and vegetables</p>
+            </div>
+            <div class="fruit_title_block">
+              <div>
+                <h1 class="fruit_title">Fruit and vegetables</h1>
+              </div>
+              <ul class="fruit_icon_list">
+                <li><p class="grid_view">Grid view</p></li>
+                <li><p class="list_view">List view</p></li>
+                <li><p class="fruit_view">Products</p></li>
+              </ul>
+            </div>
+            <form class="radios">
+              <div class="radio_block">
+                <div class="radios">
+                  <input
+                    class="fruit_radio"
+                    hidden
+                    id="radio"
+                    name="product"
+                    type="radio"
+                  />
+                  <label class="radio__label" for="radio"></label>
+                  <span class="radio_text">Filtre text</span>
+                </div>
+                <div class="radios">
+                  <input
+                    class="fruit_radio"
+                    hidden
+                    id="radio1"
+                    name="product"
+                    type="radio"
+                  />
+                  <label class="radio__label" for="radio1"></label>
+                  <span class="radio_text">Filtre text</span>
+                </div>
+              </div>
+              <div class="input_block">
+                <div class="fruit_radio_block">
+                  <input
+                    hidden
+                    type="radio"
+                    name="radio"
+                    id="radio3"
+                    class="fruit_radio"
+                  />
+                  <label for="radio3" class="radio__label"></label>
+                  <span class="radio_text">Filtre text</span>
+                  <span class="nbm">NBM</span>
+                </div>
+                <div class="fruit_radio_block">
+                  <input
+                    hidden
+                    type="radio"
+                    name="radio"
+                    id="radio4"
+                    class="fruit_radio"
+                  />
+                  <label for="radio4" class="radio__label"></label>
+                  <span class="radio_text">Filtre text</span>
+                  <span class="nbm">NBM</span>
+                </div>
+                <div class="checkbox_block">
+                  <input
+                    class="checkbox"
+                    hidden
+                    id="fruit"
+                    type="checkbox"
+                    name="brand"
+                  />
+                  <label class="brand_checkbox" for="fruit"></label>
+                  <p class="brand_text">Filtre</p>
+                  <p class="brand_text2">12</p>
+                  <span>|</span>
+                  <select name="" id="" class="header_select">
+                    <option value="">Select</option>
+                    <option value="">Select</option>
+                    <option value="">Select</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+        <div class="container sidebar_section">
+          <section>
+            <div class="container">
+              <div class="sidebar">
+                <div class="categories">
+                  <h2 class="category_title">Categories</h2>
+                  <p class="category_name">Category name</p>
+                  <p class="category_name">Category name</p>
+                  <p class="category_name">Category name</p>
+                  <p class="category_name">Category name</p>
+                </div>
+                <div class="brands">
+                  <h2 class="brand_title">Brands</h2>
+                  <form class="brands_form">
+                    <div class="chechbox_item">
+                      <input
+                        class="checkbox"
+                        hidden
+                        id="brand"
+                        type="checkbox"
+                        name="brand"
+                      />
+                      <label class="brand_checkbox" for="brand"></label>
+                      <p class="brand_text">Filtre by brand item</p>
+                    </div>
+                    <div class="chechbox_item">
+                      <input
+                        class="checkbox"
+                        hidden
+                        id="brand2"
+                        type="checkbox"
+                        name="brand"
+                      />
+                      <label class="brand_checkbox" for="brand2"></label>
+                      <p class="brand_text">Filtre by brand item</p>
+                    </div>
+                    <div class="chechbox_item">
+                      <input
+                        class="checkbox"
+                        hidden
+                        id="brand3"
+                        type="checkbox"
+                        name="brand"
+                      />
+                      <label class="brand_checkbox" for="brand3"></label>
+                      <p class="brand_text">Filtre by brand item</p>
+                    </div>
+                    <div class="chechbox_item">
+                      <input
+                        class="checkbox"
+                        hidden
+                        id="brand4"
+                        type="checkbox"
+                        name="brand"
+                      />
+                      <label class="brand_checkbox" for="brand4"></label>
+                      <p class="brand_text">Filtre by brand item</p>
+                    </div>
+                    <div class="chechbox_item">
+                      <input
+                        class="checkbox"
+                        hidden
+                        id="brand5"
+                        type="checkbox"
+                        name="brand"
+                      />
+                      <label class="brand_checkbox" for="brand5"></label>
+                      <p class="brand_text">Filtre by brand item</p>
+                    </div>
+                  </form>
+                </div>
+                <form class="form">
+                  <h2 class="rating_title">Rating</h2>
+                  <div class="rating_item">
+                    <input
+                      class="checkbox"
+                      hidden
+                      id="rating"
+                      type="checkbox"
+                      name="rating"
+                    />
+                    <label class="brand_checkbox" for="rating"></label>
+                    <img src="./img/stars.svg" alt="" class="rating_img" />
+                  </div>
+                  <div class="rating_item">
+                    <input
+                      class="checkbox"
+                      hidden
+                      id="rating2"
+                      type="checkbox"
+                      name="rating"
+                    />
+                    <label class="brand_checkbox" for="rating2"></label>
+                    <img src="./img/stars.svg" alt="" class="rating_img" />
+                  </div>
+                  <div class="rating_item">
+                    <input
+                      class="checkbox"
+                      hidden
+                      id="rating3"
+                      type="checkbox"
+                      name="rating"
+                    />
+                    <label class="brand_checkbox" for="rating3"></label>
+                    <img src="./img/stars.svg" alt="" class="rating_img" />
+                  </div>
+                  <div class="rating_item">
+                    <input
+                      class="checkbox"
+                      hidden
+                      id="rating4"
+                      type="checkbox"
+                      name="rating"
+                    />
+                    <label class="brand_checkbox" for="rating4"></label>
+                    <img src="./img/stars.svg" alt="" class="rating_img" />
+                  </div>
+                  <div class="rating_item">
+                    <input
+                      class="checkbox"
+                      hidden
+                      id="rating5"
+                      type="checkbox"
+                      name="rating"
+                    />
+                    <label class="brand_checkbox" for="rating5"></label>
+                    <img src="./img/stars.svg" alt="" class="rating_img" />
+                  </div>
+                </form>
+                <div class="price">
+                  <h2 class="price_title">Price</h2>
+                  <img src="./img/price.svg" alt="" class="price_img" />
+                  <form action="" class="minmax">
+                    <div>
+                      <label for="min" class="min_text">Min</label>
+                      <input type="text" id="min" class="min" placeholder="0" />
+                    </div>
+                    <div>
+                      <p class="line">-</p>
+                    </div>
+                    <div>
+                      <label for="max" class="max_text">Max</label>
+                      <input class="max" id="max" placeholder="000" />
+                    </div>
+                  </form>
+                  <div class="price_btns">
+                    <button class="apply_btn">Apply</button>
+                    <button class="reset_btn">Reset</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="products_card_block">
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <img src="./img/black-stars.svg" alt="" />
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <img src="./img/black-stars.svg" alt="" />
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="products_card_block">
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <img src="./img/black-stars.svg" alt="" />
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <img src="./img/black-stars.svg" alt="" />
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="products_card_block">
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <img src="./img/black-stars.svg" alt="" />
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <img class="prodcut_img" src="" alt="" />
+                  <h3 class="product_title">Product Title</h3>
+                  <p class="product_description">
+                    Space for a small product description
+                  </p>
+                  <div class="product_btn_block">
+                    <p class="product_price">1.48 USD</p>
+                    <a href="#" class="product_btn">Buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <section>
+        <div class="container">
+          <button class="products_button">Show more Products</button>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer_contact">
+            <ul class="footer_contact_list">
+              <li class="footer_contact_item">
+                <h2 class="footer_contact_title">Get in touch</h2>
+                <a href="#" class="footer_contact_link">About Us</a>
+                <a href="#" class="footer_contact_link">Careers</a>
+                <a href="#" class="footer_contact_link">Press Releases</a>
+                <a href="#" class="footer_contact_link">Blog</a>
+              </li>
+              <li class="footer_contact_item">
+                <h2 class="footer_contact_title">Connections</h2>
+                <a href="#" class="footer_contact_link">Facebook</a>
+                <a href="#" class="footer_contact_link">Twitter</a>
+                <a href="#" class="footer_contact_link">Instagram</a>
+                <a href="#" class="footer_contact_link">Youtube</a>
+                <a href="#" class="footer_contact_link">LinkedIn</a>
+              </li>
+              <li class="footer_contact_item">
+                <h2 class="footer_contact_title">Earnings</h2>
+                <a href="#" class="footer_contact_link">Become an Affiliate</a>
+                <a href="#" class="footer_contact_link_long"
+                  >Advertise your product</a
+                >
+                <a href="#" class="footer_contact_link">Sell on Market</a>
+              </li>
+              <li class="footer_contact_item">
+                <h2 class="footer_contact_title">Account</h2>
+                <a href="#" class="footer_contact_link">Your account</a>
+                <a href="#" class="footer_contact_link">Returns Centre</a>
+                <a href="#" class="footer_contact_link_long"
+                  >100 % purchase protection</a
+                ><br />
+                <a href="#" class="footer_contact_link">Chat with us</a>
+                <a href="#" class="footer_contact_link">Help</a>
+              </li>
+            </ul>
+          </div>
+          <div class="product_tags">
+            <div><h2 class="product_tags_title">Product tags</h2></div>
+            <div class="product_tags_block">
+              <a href="#" class="product_tags_link">Beans</a>
+              <a href="#" class="product_tags_link">Carrots</a>
+              <a href="#" class="product_tags_link">Apples</a>
+              <a href="#" class="product_tags_link">Garlic</a>
+              <a href="#" class="product_tags_link">Mushrooms</a>
+              <a href="#" class="product_tags_link">Tomatoes</a>
+              <a href="#" class="product_tags_link">Chilli peppers</a>
+              <a href="#" class="product_tags_link">Broccoli</a>
+              <a href="#" class="product_tags_link">Watermelons</a>
+              <a href="#" class="product_tags_link">Oranges</a>
+              <a href="#" class="product_tags_link">Bananas</a>
+              <a href="#" class="product_tags_link">Grapes</a>
+              <a href="#" class="product_tags_link">Chilli peppers</a>
+              <a href="#" class="product_tags_link">Broccoli</a>
+              <a href="#" class="product_tags_link">Watermelons</a>
+              <a href="#" class="product_tags_link">Oranges</a>
+              <a href="#" class="product_tags_link">Bananas</a>
+              <a href="#" class="product_tags_link">Grapes</a>
+            </div>
+          </div>
+          <a href="#" class="copyright">Copyright © 2020 petrbilek.com</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

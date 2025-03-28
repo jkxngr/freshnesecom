@@ -1,0 +1,131 @@
+.header_contact__text {
+  color: var(--c2);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header_contact__number {
+  color: var(c1);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+}
+.header_contact__email {
+  color: var(--c1);
+  font-size: 12px;
+  font-weight: 400;
+}
+.header_contact_list__link {
+  color: var(--c2);
+  font-size: 12px;
+  font-weight: 400;
+}
+.header_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+.header_contact_list {
+  display: flex;
+  gap: 38px;
+}
+.header_contact_block {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.header_input__label {
+  color: var(--c1);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    background-image: url("/img/Layer.svg");
+    vertical-align: middle;
+    margin-left: 8px;
+  }
+}
+.header_form {
+  padding: 10px 16px;
+  width: 500px;
+  border-radius: 12px;
+  border: 1px solid #d1d1d1;
+  background: #f9f9f9;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url("/img/input-search.svg");
+    vertical-align: middle;
+  }
+}
+.header_input {
+  border: none;
+  width: 262px;
+  outline: none;
+  background-color: transparent;
+}
+.header__vertical_line {
+  width: 1px;
+  height: 20px;
+  background: #d1d1d1;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.header_middle {
+  display: flex;
+  align-items: center;
+  gap: 158px;
+  position: relative;
+  padding: 40px 0;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+    background-image: url("/img/header-middle-icon.svg");
+    vertical-align: middle;
+  }
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url("/img/header-middle-shop-icon.svg");
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+  }
+}
+.header_bottom_list {
+  display: flex;
+  gap: 40px;
+  padding: 16px 0;
+  background-color: #F9F9F9;
+  padding-left: 45px;
+}
+.header_bottom_item {
+  color: var(--c1);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    background-image: url(/img/header-bottome-icon.svg);
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+}

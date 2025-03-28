@@ -1,0 +1,58 @@
+.footer_contact_list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_contact_item {
+  width: 127px;
+}
+.footer_contact_title {
+  color: var(--c1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_contact_link {
+  color: #6a983c;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  display: flex;
+}
+.footer_contact_link_long {
+  color: #6a983c;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  display: flex;
+  width: 170px;
+}
+.product_tags_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.product_tags_link {
+  padding: 4px 10px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  color: var(--c1);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+}
+.product_tags_title {
+  color: var(--c1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 16px;
+}
+.copyright {
+  color: var(--c1);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 64px;
+  display: flex;
+}
